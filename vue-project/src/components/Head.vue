@@ -1,30 +1,30 @@
 <template>
-  <div class="theme">
-  <div class="main">
-    <div class="block">
-      <h1>РЕАЛИЗУЕМ КРУПНЕЙШИЕ ПРОЕКТЫ В РОССИИ</h1>
-      <p>стадионы, газопроводы, мосты, дамбы</p>
+  <div>
+    <div class="wrapper">
+      <div class="text">
+        <h1>реализуем крупнейшие проекты в россии</h1>
+        <p>стадионы, газопроводы, мосты, дамбы</p>
+      </div>
     </div>
   </div>
-</div>
 </template>
 
 <script></script>
 
-<style>
-.theme {
+<style scoped>
+.wrapper {
   background-image: url(../assets/Rectangle.png);
   height: 740px;
 }
-.main {
- 
-  
-  margin-right: auto;
-  margin-left: auto;
+
+.text {
   text-align: center;
- 
 }
 
+h1,
+p {
+  color: white;
+}
 
 h1 {
   font-family: Oswald;
@@ -33,6 +33,7 @@ h1 {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 1.28px;
+  text-transform: uppercase;
 }
 p {
   font-family: Oswald;
